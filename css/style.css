@@ -75,12 +75,11 @@ button:hover {
 }
 
 main {
-    /* background: white; */
     width: 96%;
     margin: 10px 2%;
     border-radius: 15px;
     background: rgb(255, 238, 246);
-        background: radial-gradient(circle, rgba(255, 238, 246, 1) 6%, rgba(148, 187, 233, 1) 100%);
+    background: radial-gradient(circle, rgba(255, 238, 246, 1) 6%, rgba(148, 187, 233, 1) 100%);
 }
 
 .image-section {
@@ -147,7 +146,7 @@ main {
     align-items: center;
 }
 
-.service-tag{
+.service-tag {
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -166,7 +165,7 @@ main {
     }
 
     main {
-        height: 120vh;
+        height: 1130px;
     }
 
     ion-icon {
@@ -189,8 +188,8 @@ main {
 @media (min-width: 400px) {
 
     main {
-            height: 121vh;
-        }
+        height: 1100px;
+    }
 
     .name-section h2 {
         font-size: 28px;
@@ -204,7 +203,7 @@ main {
 
 @media (min-width: 550px) {
     main {
-        height: 140vh;
+        height: 1300px;
     }
 
 
