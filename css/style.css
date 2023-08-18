@@ -20,8 +20,7 @@ body {
 
 
 main {
-    min-width: 270px;
-    max-width: 650px;
+    max-width: 980px;
 }
 
 
@@ -78,7 +77,6 @@ button:hover {
 main {
     background: white;
     width: 96%;
-    height: 115vh;
     margin: 10px 2%;
     border-radius: 15px;
 }
@@ -106,8 +104,6 @@ main {
 .phone-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: black;
     border-radius: 15px;
     padding: 10px 0;
@@ -122,13 +118,14 @@ main {
     justify-content: center;
 }
 
-.logo{
+.logo {
     width: 150px;
     height: 150px;
     margin-top: 20px;
 
 }
-.log-section{
+
+.log-section {
     display: flex;
     justify-content: center;
 }
@@ -140,32 +137,89 @@ main {
     margin-top: 30px;
 }
 
+.email-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.service-tag{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #4e54c8;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
 
 /* responsive */
 
-@media (min-width: 250px) {
+@media (min-width: 300px) {
 
     .name-section h2 {
         font-size: 18px;
     }
 
-}
-
-@media (min-width: 300px) {
-
-    .name-section h2 {
-        font-size: 22px;
+    main {
+        height: 115vh;
     }
+
+    ion-icon {
+        font-size: 20px;
+    }
+
+    li {
+        padding-bottom: 15px;
+    }
+
+    .email-section h3 {
+        font-size: 13px;
+    }
+
+
 }
-@media (min-width: 450px) {
+
+
+
+@media (min-width: 400px) {
 
     .name-section h2 {
         font-size: 28px;
     }
 
-    li{
+    li {
         font-size: 18px;
         padding-bottom: 8px;
     }
 }
 
+@media (min-width: 550px) {
+    main {
+        height: 135vh;
+    }
+
+
+    .name-section h2 {
+        font-size: 35px;
+    }
+
+    .name-section h3 {
+        font-size: 30px;
+    }
+
+    li {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    ion-icon {
+        font-size: 30px;
+    }
+
+    .email-section h3 {
+        font-size: 22px;
+    }
+}
