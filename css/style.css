@@ -175,7 +175,7 @@ main {
     }
 
     main {
-        height: 1230px;
+        height: 1460px;
     }
 
     ion-icon {
@@ -198,7 +198,7 @@ main {
 @media (min-width: 400px) {
 
     main {
-        height: 1120px;
+        height: 1420px;
     }
 
     .name-section h2 {
@@ -213,7 +213,7 @@ main {
 
 @media (min-width: 550px) {
     main {
-        height: 1340px;
+        height: 1500px;
     }
 
 
